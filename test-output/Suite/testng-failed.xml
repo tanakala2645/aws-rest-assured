@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestFramework.basics8">
+        <methods>
+          <include name="JiraAPICreateComment"/>
+          <include name="JiraAPIUpdate"/>
+        </methods>
+      </class> <!-- TestFramework.basics8 -->
+      <class name="TestFramework.basics3">
+        <methods>
+          <include name="AddandDeletePlace"/>
+          <include name="getData"/>
+        </methods>
+      </class> <!-- TestFramework.basics3 -->
+      <class name="TestFramework.basics7">
+        <methods>
+          <include name="JiraAPICreateComment"/>
+        </methods>
+      </class> <!-- TestFramework.basics7 -->
+      <class name="TestFramework.basics">
+        <methods>
+          <include name="getPlaceAPI"/>
+        </methods>
+      </class> <!-- TestFramework.basics -->
+      <class name="TestFramework.basics4">
+        <methods>
+          <include name="postDataXML"/>
+        </methods>
+      </class> <!-- TestFramework.basics4 -->
+      <class name="TestFramework.basics5">
+        <methods>
+          <include name="extractingNamesAPI"/>
+        </methods>
+      </class> <!-- TestFramework.basics5 -->
+      <class name="TestFramework.basics2">
+        <methods>
+          <include name="createPlaceAPI"/>
+        </methods>
+      </class> <!-- TestFramework.basics2 -->
+      <class name="TestFramework.basics6">
+        <methods>
+          <include name="JiraAPICreateIssue"/>
+        </methods>
+      </class> <!-- TestFramework.basics6 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
